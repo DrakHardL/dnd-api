@@ -58,6 +58,6 @@ export class DnDApi {
   }
 
   getClass(index: string): Observable<Class> {
-    return this.http.get<Class>(`${this.domain}/classes/${index}`)
+    return this.http.get<Class>(`${this.domain}/classes/${index}`);
   }
 }
